@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secundary_background"
+    app:defaultNavHost="true"
+    app:navGraph="@navigation/nav_graph"
+    tools:context=".ui.feature.onboarding.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp" >
+
+        <ImageView
+            android:id="@+id/img_pokeDex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/pokedex_logo" />
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores Primarias -->
+    <color name= "primary_background">#FFFFFF</color>
+    <color name= "secundary_background">#000029</color>
+
+    <!-- Cores Elementos -->
+    <color name= "element_allTypes">#333333</color>
+    <color name= "element_water">#5090D6</color>
+    <color name= "element_dragon">#0B6DC3</color>
+    <color name= "element_eletric">#F4D23C</color>
+    <color name= "element_fairy">#EC8FE6</color>
+    <color name= "element_ghost">#5269AD</color>
+    <color name= "element_fire">#FF9D55</color>
+    <color name= "element_ice">#73CEC0</color>
+    <color name= "element_grass">#63BC5A</color>
+    <color name= "element_bug">#91C12F</color>
+    <color name= "element_fighting">#CE416B</color>
+    <color name= "element_normal">#919A</color>
+    <color name= "element_dark">#5A5465</color>
+    <color name= "element_rock">#C5B78C</color>
+    <color name= "element_psychic">#FA7179</color>
+    <color name= "element_ground">#D97845</color>
+    <color name= "element_poison">#B567CE</color>
+    <color name= "element_flying">#89AAE3</color>
+
+    <!-- Cores Botoes -->
+    <color name= "primary_button_blue">#173EA5</color>
+    <color name= "secundary_button_black">#000000</color>
+
 </resources>
